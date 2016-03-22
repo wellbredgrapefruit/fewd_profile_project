@@ -72,6 +72,8 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  /* added box shadow per extra credit */
+  box-shadow: 5px 5px 5px #333333;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -99,7 +101,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {
@@ -107,17 +109,15 @@ ul.skills {
   text-align: center;
 }
 
+/* changed because... ew. */
 .skills li {
   border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
+  display: block;
+  background: #0399ff;
   color: white;
+  font-weight: bold;
   padding: 5px 10px;
   margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
 }
 
 footer {

@@ -100,6 +100,12 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card img {
+  max-width: 425px;
+  margin: 0px auto;
+  box-shadow: 2px 2px 5px #333333;
+}
 .card:hover {
   border-color: #0399ff;
 }

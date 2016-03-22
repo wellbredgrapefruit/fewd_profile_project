@@ -167,6 +167,16 @@ a.social:hover {
   clear: both;
 }
 
+h2.background {
+  background:url(images/about.png) center left no-repeat;
+  padding-left: 25px;
+}
+
+h2.goals {
+  background:url(images/goals.png) center left no-repeat;
+  padding-left: 25px;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
